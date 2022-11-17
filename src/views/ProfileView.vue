@@ -112,7 +112,7 @@
           >Projects</router-link
         >
         <router-link
-          to="/"
+          to="/certificate"
           class="
             font-bold
             px-2

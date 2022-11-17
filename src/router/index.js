@@ -4,6 +4,10 @@ import ProfileView from '../views/ProfileView.vue'
 import Overview from '../components/Overview.vue'
 import Event from '../components/Event.vue'
 import UploadPort from '../views/UploadPort.vue'
+import Certificate from '../components/Certificate.vue'
+import AddAct from '../views/AddAct.vue'
+import Calendar from '../views/Calendar.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,6 +39,11 @@ const router = createRouter({
           id: 1,
           path: '/event',
           component: Event,
+        },
+        {
+          id: 2,
+          path: '/certificate',
+          component: Certificate,
         }
 
       ]
@@ -43,6 +52,16 @@ const router = createRouter({
       path: '/upload',
       name: 'upload',
       component: UploadPort
+    },
+    {
+      path: '/add-activity',
+      name: 'add-activity',
+      component: AddAct
+    },
+    {
+      path: '/calendar',
+      name: 'calendar',
+      component: Calendar
     }
   ]
 })

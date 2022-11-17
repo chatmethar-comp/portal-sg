@@ -1,5 +1,12 @@
-<script setup>
+<script>
 import Filter from "../components/Filter.vue";
+export default {
+  methods: {
+    toAddAct() {
+      this.$router.push({ name: "add-activity" });
+    },
+  },
+};
 </script>
 
 <template>
@@ -271,4 +278,30 @@ import Filter from "../components/Filter.vue";
       </div>
     </div>
   </main>
+  <!-- add button -->
+  <div>
+    <button
+      class="
+        fixed
+        w-14
+        h-14
+        lg:w-20 lg:h-20
+        m-6
+        flex
+        items-center
+        justify-center
+        rounded-full
+        text-4xl text-white
+        bg-primary
+        bottom-0
+        right-0
+        md:right-12
+        lg:right-20
+        shadow-xl
+      "
+      @click="toAddAct"
+    >
+      <p class="align-baseline">+</p>
+    </button>
+  </div>
 </template>

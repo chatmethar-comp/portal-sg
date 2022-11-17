@@ -24,15 +24,10 @@
             to="/"
             role="img"
             aria-label="logo"
-            class="
-              focus:outline-none focus:ring-2 focus:ring-offset-2
-              mr-10
-              flex
-              items-center
-            "
+            class="focus:outline-none mr-10 flex items-center"
           >
             <div class="flex gap-1 items-center">
-              <!-- <div class="text-4xl text-darkPrimary"></div> -->
+              <!-- <div class="text-4xl text-black"></div> -->
               <div class="w-12 h-12">
                 <img src="../assets/Portal.png" alt="" />
               </div>
@@ -104,7 +99,7 @@
                 class="
                   relative
                   focus:outline-none
-                  hover:text-indigo-100
+                  hover:text-primary
                   focus:text-indigo-100
                   text-primary
                   mx-5
@@ -194,7 +189,7 @@
                 tracking-normal
                 mt-2
                 py-2
-                hover:text-indigo-100
+                hover:text-primary
                 focus:text-indigo-100 focus:outline-none
               "
             >
@@ -212,7 +207,7 @@
                 leading-3
                 tracking-normal
                 py-2
-                hover:text-indigo-100
+                hover:text-primary
                 focus:text-indigo-100 focus:outline-none
                 justify-center
               "
@@ -231,7 +226,7 @@
                 leading-3
                 tracking-normal
                 py-2
-                hover:text-indigo-100
+                hover:text-primary
                 focus:text-indigo-100 focus:outline-none
                 justify-center
               "
@@ -250,7 +245,7 @@
                 tracking-normal
                 pt-2
                 pb-4
-                hover:text-indigo-100
+                hover:text-primary
                 flex
                 items-center
                 focus:text-indigo-700 focus:outline-none
@@ -407,8 +402,8 @@
                   h-full
                   flex
                   items-center
-                  hover:text-indigo-100
-                  text-sm text-darkPrimary
+                  hover:text-primary
+                  text-sm text-black
                   tracking-normal
                 "
                 >Dashboard</a
@@ -424,12 +419,17 @@
                   h-full
                   flex
                   items-center
-                  hover:text-indigo-100
-                  text-sm text-darkPrimary
+                  hover:text-primary
+                  text-sm text-black
                   mx-6
                   tracking-normal
                 "
-                >Transactions</a
+                @click="
+                  () => {
+                    this.$router.push({ name: 'calendar' });
+                  }
+                "
+                >Calendar</a
               >
             </li>
             <li>
@@ -442,8 +442,8 @@
                   h-full
                   flex
                   items-center
-                  hover:text-indigo-100
-                  text-sm text-darkPrimary
+                  hover:text-primary
+                  text-sm text-black
                   mr-6
                   tracking-normal
                 "
@@ -460,8 +460,8 @@
                   h-full
                   flex
                   items-center
-                  hover:text-indigo-100
-                  text-sm text-darkPrimary
+                  hover:text-primary
+                  text-sm text-black
                   mr-6
                   tracking-normal
                 "
@@ -478,8 +478,8 @@
                   h-full
                   flex
                   items-center
-                  hover:text-indigo-100
-                  text-sm text-darkPrimary
+                  hover:text-primary
+                  text-sm text-black
                   mr-6
                   tracking-normal
                 "
@@ -685,7 +685,7 @@
                       class="focus:outline-none"
                     >
                       <div class="flex gap-1 items-center">
-                        <!-- <div class="text-4xl text-darkPrimary"></div> -->
+                        <!-- <div class="text-4xl text-black"></div> -->
                         <div class="w-12 h-12">
                           <img src="../assets/Portal.png" alt="" />
                         </div>
@@ -788,8 +788,8 @@
                           <p
                             tabindex="0"
                             class="
-                              focus:outline-none
-                              text-darkPrimary text-sm
+                              hover:text-primary
+                              text-black text-sm
                               font-medium
                             "
                           >
@@ -807,12 +807,12 @@
                             <p
                               tabindex="0"
                               class="
-                                focus:outline-none
-                                text-darkPrimary text-sm
+                                hover:text-primary
+                                text-black text-sm
                                 font-medium
                               "
                             >
-                              Transactions
+                              Calendar
                             </p>
                           </div>
                         </div>
@@ -826,8 +826,8 @@
                           <p
                             tabindex="0"
                             class="
-                              focus:outline-none
-                              text-darkPrimary text-sm
+                              hover:text-primary
+                              text-black text-sm
                               font-medium
                             "
                           >
@@ -843,8 +843,8 @@
                         <p
                           tabindex="0"
                           class="
-                            focus:outline-none
-                            text-darkPrimary text-sm
+                            hover:text-primary
+                            text-black text-sm
                             font-medium
                           "
                         >
@@ -859,8 +859,8 @@
                         <p
                           tabindex="0"
                           class="
-                            focus:outline-none
-                            text-darkPrimary text-sm
+                            hover:text-primary
+                            text-black text-sm
                             font-medium
                           "
                         >
