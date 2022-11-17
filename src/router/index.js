@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ProfileView from '../views/ProfileView.vue'
 import Overview from '../components/Overview.vue'
+import Event from '../components/Event.vue'
+import UploadPort from '../views/UploadPort.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,14 +22,27 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/profile',
+      path: '/profile/:',
       name: 'profile',
-      component: ProfileView
+      component: ProfileView,
+      children: [
+        {
+          id: 0,
+          path: '/overview',
+          component: Overview,
+        },
+        {
+          id: 1,
+          path: '/event',
+          component: Event,
+        }
+
+      ]
     },
     {
-      path: '/profile/overview',
-      name: 'overview',
-      component: Overview
+      path: '/upload',
+      name: 'upload',
+      component: UploadPort
     }
   ]
 })
