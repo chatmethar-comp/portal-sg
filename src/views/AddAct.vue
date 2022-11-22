@@ -1,3 +1,12 @@
+<!-- 
+  req
+- place
+- cost
+- age
+- remark requirement 
+
+-->
+
 <template>
   <div
     class="
