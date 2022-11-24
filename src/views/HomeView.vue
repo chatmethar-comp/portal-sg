@@ -140,7 +140,10 @@ export default {
           </div>
         </div>
       </div>
-      <div class="w-full flex flex-col rounded-lg h-72 bg-white p-4">
+      <div
+        @click="gotoDetail"
+        class="w-full flex flex-col rounded-lg h-72 bg-white p-4"
+      >
         <!-- head -->
         <div class="flex justify-between items-center w-full">
           <div class="flex gap-3">
@@ -187,7 +190,10 @@ export default {
           </div>
         </div>
       </div>
-      <div class="w-full flex flex-col rounded-lg h-72 bg-white p-4">
+      <div
+        @click="gotoDetail"
+        class="w-full flex flex-col rounded-lg h-72 bg-white p-4"
+      >
         <!-- head -->
         <div class="flex justify-between items-center w-full">
           <div class="flex gap-3">
@@ -235,7 +241,10 @@ export default {
           </div>
         </div>
       </div>
-      <div class="w-full flex flex-col rounded-lg h-72 bg-white p-4">
+      <div
+        @click="gotoDetail"
+        class="w-full flex flex-col rounded-lg h-72 bg-white p-4"
+      >
         <!-- head -->
         <div class="flex justify-between items-center w-full">
           <div class="flex gap-3">
