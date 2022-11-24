@@ -26,10 +26,10 @@
             aria-label="logo"
             class="focus:outline-none mr-10 flex items-center"
           >
-            <div class="flex gap-1 items-center">
+            <div class="flex gap-3 items-center">
               <!-- <div class="text-4xl text-black"></div> -->
               <div class="w-12 h-12">
-                <img src="../assets/Portal.png" alt="" />
+                <img src="../assets/logo_01.png" alt="" />
               </div>
               <div class="text-2xl text-primary font-bold">Portal</div>
             </div>
