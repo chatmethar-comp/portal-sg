@@ -7,6 +7,7 @@ import UploadPort from '../views/UploadPort.vue'
 import Certificate from '../components/Certificate.vue'
 import AddAct from '../views/AddAct.vue'
 import Calendar from '../views/Calendar.vue'
+import TreadDetail from '../views/TreadDetail.vue'
 
 
 const router = createRouter({
@@ -62,6 +63,11 @@ const router = createRouter({
       path: '/calendar',
       name: 'calendar',
       component: Calendar
+    },
+    {
+      path: '/post-detail',
+      name: 'post-detail',
+      component: TreadDetail,
     }
   ]
 })

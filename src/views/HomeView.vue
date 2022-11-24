@@ -5,6 +5,9 @@ export default {
     toAddAct() {
       this.$router.push({ name: "add-activity" });
     },
+    gotoDetail() {
+      this.$router.push({ name: "post-detail" });
+    },
   },
 };
 </script>
@@ -86,7 +89,10 @@ export default {
     </div>
     <!-- Query -->
     <div class="mt-4 flex flex-col space-y-4 min-w-[90%] mx-auto">
-      <div class="w-full flex flex-col rounded-lg h-72 bg-white p-4">
+      <div
+        @click="gotoDetail"
+        class="w-full flex flex-col rounded-lg h-72 bg-white p-4"
+      >
         <!-- head -->
         <div class="flex justify-between items-center w-full">
           <div class="flex gap-3">

@@ -641,7 +641,6 @@
       <!--Mobile responsive sidebar-->
       <div
         class="
-          absolute
           w-full
           h-full
           transform
@@ -650,6 +649,7 @@
           transition
           duration-700
           md:hidden
+          fixed
         "
         ref="mobilenav"
         id="mobilenav"

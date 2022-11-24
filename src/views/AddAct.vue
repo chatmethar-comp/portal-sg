@@ -179,6 +179,55 @@
         id=""
       />
     </div>
+    <div v-if="Name === 'new'" class="flex items-start flex-col space-y-3">
+      <h1 for="" class="text-base font-semibold">Requirement</h1>
+      <div class="flex gap-3 items-center">
+        <input
+          type="checkbox"
+          class="rounded-md text-base px-4 py-2 focus:outline-black"
+          name=""
+          id=""
+        />
+        <label for="" class="text-base font-md">Age</label>
+        <input
+          type="text"
+          class="
+            w-9/12
+            md:w-full
+            rounded-md
+            text-xs
+            px-3
+            py-1
+            focus:outline-black
+          "
+          name=""
+          id=""
+        />
+      </div>
+      <div class="flex gap-3 items-center">
+        <input
+          type="checkbox"
+          class="rounded-md text-base px-4 py-2 focus:outline-black"
+          name=""
+          id=""
+        />
+        <label for="" class="text-base font-md">Perfomance</label>
+        <input
+          type="text"
+          class="
+            w-9/12
+            md:w-full
+            rounded-md
+            text-xs
+            px-3
+            py-1
+            focus:outline-black
+          "
+          name=""
+          id=""
+        />
+      </div>
+    </div>
     <div v-if="Name === 'new'" class="flex flex-col space-y-1">
       <label for="" class="text-base font-semibold">Organizer</label>
       <input
@@ -196,6 +245,49 @@
         id=""
       />
     </div>
+
+    <div v-if="Name === 'new'" class="flex flex-col space-y-1">
+      <label for="" class="text-base font-semibold">Place</label>
+      <input
+        type="text"
+        class="
+          w-9/12
+          md:w-full
+          rounded-md
+          text-base
+          px-4
+          py-2
+          focus:outline-black
+        "
+        name=""
+        id=""
+      />
+    </div>
+    <div v-if="Name === 'new'" class="flex flex-col space-y-1">
+      <label for="" class="text-base font-semibold"
+        >Application Fee (bth)</label
+      >
+      <input
+        type="text"
+        class="
+          w-9/12
+          md:w-full
+          rounded-md
+          text-base
+          px-4
+          py-2
+          focus:outline-black
+        "
+        name=""
+        id=""
+      />
+    </div>
+
+    <div v-if="Name === 'new'" class="flex flex-col space-y-1">
+      <label for="" class="font-semibold text-md">Application Deadline</label>
+      <input type="date" class="px-6 py-2 rounded-md text-base" name="" id="" />
+    </div>
+
     <div class="flex flex-col space-y-1">
       <label for="" class="text-base font-semibold">Post By</label>
       <div class="flex space-x-8">
