@@ -494,16 +494,16 @@
     <nav class="md:hidden">
       <div class="w-full shadow-md bg-white fixed top-0 z-40">
         <div class="w-full flex md:hidden">
-          <div class="py-4 flex justify-between mx-4 items-center w-full">
+          <div class="py-2 flex justify-between mx-4 items-center w-full">
             <router-link
               to="/"
               aria-label="logo"
               role="img"
               tabindex="0"
-              class="flex focus:outline-none my-2 items-center gap-1"
+              class="flex focus:outline-none my-2 items-center gap-2"
             >
               <div class="w-12 h-12">
-                <img src="../assets/Portal.png" alt="" />
+                <img src="../assets/logo_01.png" alt="" />
               </div>
               <h1 class="text-xl text-primary font-bold">Portal</h1>
             </router-link>
