@@ -799,7 +799,14 @@
                       </div>
                     </a>
                   </li>
-                  <li>
+                  <li
+                    @click="
+                      () => {
+                        this.$router.push({ name: 'calendar' });
+                        sidebarHandler(false);
+                      }
+                    "
+                  >
                     <a class="cursor-pointer">
                       <div class="text-gray-800 pt-8">
                         <div class="flex items-center justify-between">
