@@ -8,6 +8,8 @@ import Certificate from '../components/Certificate.vue'
 import AddAct from '../views/AddAct.vue'
 import Calendar from '../views/Calendar.vue'
 import TreadDetail from '../views/TreadDetail.vue'
+import BuildPort from '../views/BuildPort.vue'
+
 
 
 const router = createRouter({
@@ -68,6 +70,11 @@ const router = createRouter({
       path: '/post-detail',
       name: 'post-detail',
       component: TreadDetail,
+    },
+    {
+      path: '/build-port',
+      name: 'build-port',
+      component: BuildPort,
     }
   ]
 })

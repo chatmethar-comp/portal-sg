@@ -31,10 +31,28 @@
       </div>
       <button
         class="
+          animate-bounce
+          w-full
+          bg-primary
+          py-3
+          mt-3
+          md:py-2
+          rounded-md
+          hover:bg-secondary hover hover:border-gray-400
+          shadow-lg shadow-lighter
+          duration-150
+        "
+        @click="BuildPort"
+      >
+        Build Portfolio
+        <i class="fa-solid fa-folder-open"></i>
+      </button>
+      <button
+        class="
           w-full
           bg-backgroundSecondary
           py-0.5
-          mt-2
+          mt-1
           rounded-md
           border border-gray-300
           hover:bg-backgroundDarkerSecondary hover hover:border-gray-500
@@ -147,6 +165,9 @@ export default {
   methods: {
     newPort() {
       this.$router.push({ name: "upload" });
+    },
+    BuildPort() {
+      this.$router.push({ name: "build-port" });
     },
   },
 };
