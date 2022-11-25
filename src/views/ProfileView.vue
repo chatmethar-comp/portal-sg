@@ -13,7 +13,7 @@
       md:pt-6
     "
   >
-    <div>
+    <div class="flex flex-col">
       <div id="" class="flex flex-col md:flex-row gap-3">
         <div class="flex flex-row md:flex-col items-center">
           <div class="w-18 h-18 md:min-h-56 md:min-w-56 mb-4 mr-4">
