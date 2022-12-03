@@ -28,8 +28,8 @@
     />
     <a
       class="bg-primary px-6 py-2 text-xl m-8 rounded-lg hover:bg-primaryHover"
-      href="../assets/CV_chatmethar.png"
-      download="CV_chatmethar.png"
+      href="https://leafy-rolypoly-0267a0.netlify.app/assets/CV_chatmethar.376223d7.png"
+      download="CV-chatmethar"
       target="_blank"
     >
       Download
