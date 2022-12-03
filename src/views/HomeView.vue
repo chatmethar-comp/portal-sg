@@ -16,7 +16,7 @@ export default {
   <main
     class="
       container
-      translate-y-28
+      translate-y-24
       md:translate-y-0 md:mt-8
       flex flex-col
       mx-auto

@@ -1,17 +1,8 @@
-<!-- 
-  req
-- place
-- cost
-- age
-- remark requirement 
-
--->
-
 <template>
   <div
     class="
       container
-      translate-y-24
+      translate-y-20
       md:translate-y-0
       max-w-xl
       min-w-[300px]
@@ -227,6 +218,29 @@
           id=""
         />
       </div>
+      <div class="flex gap-2 items-center">
+        <input
+          type="checkbox"
+          class="rounded-md text-base px-4 py-2 focus:outline-black"
+          name=""
+          id=""
+        />
+        <label for="" class="text-base font-md">Others</label>
+        <input
+          type="text"
+          class="
+            w-9/12
+            md:w-full
+            rounded-md
+            text-xs
+            px-3
+            py-1
+            focus:outline-black
+          "
+          name=""
+          id=""
+        />
+      </div>
     </div>
     <div v-if="Name === 'new'" class="flex flex-col space-y-1">
       <label for="" class="text-base font-semibold">Organizer</label>
@@ -265,7 +279,7 @@
     </div>
     <div v-if="Name === 'new'" class="flex flex-col space-y-1">
       <label for="" class="text-base font-semibold"
-        >Application Fee (bth)</label
+        >Application Fee (baht)</label
       >
       <input
         type="text"
@@ -285,7 +299,20 @@
 
     <div v-if="Name === 'new'" class="flex flex-col space-y-1">
       <label for="" class="font-semibold text-md">Application Deadline</label>
-      <input type="date" class="px-6 py-2 rounded-md text-base" name="" id="" />
+      <input
+        type="date"
+        class="
+          w-9/12
+          md:w-full
+          rounded-md
+          text-base
+          px-4
+          py-2
+          focus:outline-black
+        "
+        name=""
+        id=""
+      />
     </div>
 
     <div class="flex flex-col space-y-1">
@@ -334,6 +361,11 @@ export default {
       Name: "new",
       isOrganizer: false,
     };
+  },
+  methods: {
+    upload() {
+      alert(`Upload Successful`);
+    },
   },
 };
 </script>

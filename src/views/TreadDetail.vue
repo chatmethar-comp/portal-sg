@@ -119,7 +119,7 @@
         <h1 class="text-xl font-bold">เปิดให้จองที่นั่ง! ✨</h1>
         <div class="flex">
           <img
-            src="https://scontent.fbkk7-3.fna.fbcdn.net/v/t39.30808-6/316690667_124463033788100_9026320528334637166_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHPLkSJkqQxKdJ-zujDvmPDBGH0T2RZgEsEYfRPZFmAS_ULsA4acIgq9jZ0TLnST43aWOsSqJ2r_hgw9Whg0gIm&_nc_ohc=j1IpAoL1HPgAX8ogIZM&_nc_ht=scontent.fbkk7-3.fna&oh=00_AfAWIAp6y2Btp5uHLEQxjK76WeOAFhW731Zh4PvAbHU3PA&oe=6382CDF0"
+            src="../assets/image-post-innov-1.jpeg"
             alt=""
             class="
               object-cover
@@ -170,7 +170,7 @@
         <h1 class="text-xl font-bold">1 Hour Left! ✨</h1>
         <div class="flex">
           <img
-            src="https://scontent.fbkk7-3.fna.fbcdn.net/v/t39.30808-6/315388039_121482337419503_8500531747243325234_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeExLhwv-jEmMu0kwrfK5mk4cEZafFvftc5wRlp8W9-1zq3TLdt8qlKpYlwfU2hkUpfAykFWql6PozXP6SsEwEzE&_nc_ohc=nO5XJ_AMri8AX_mCQOK&_nc_ht=scontent.fbkk7-3.fna&oh=00_AfAu6kTXoqI4ccDR9sqdx0h7yN_24lIqVvVurNk7SlCYVA&oe=638385E6"
+            src="../assets/image-post-innov-2.jpeg"
             alt=""
             class="
               object-cover

@@ -406,7 +406,12 @@
                   text-sm text-black
                   tracking-normal
                 "
-                >Dashboard</a
+                @click="
+                  () => {
+                    this.$router.push({ path: '/overview' });
+                  }
+                "
+                >Profile</a
               >
             </li>
             <li>
@@ -438,12 +443,11 @@
                 class="
                   focus:outline-none
                   font-medium
-                  cursor-pointer
+                  cursor-not-allowed
                   h-full
                   flex
                   items-center
-                  hover:text-primary
-                  text-sm text-black
+                  text-sm text-gray-400
                   mr-6
                   tracking-normal
                 "
@@ -456,12 +460,11 @@
                 class="
                   focus:outline-none
                   font-medium
-                  cursor-pointer
+                  cursor-not-allowed
                   h-full
                   flex
                   items-center
-                  hover:text-primary
-                  text-sm text-black
+                  text-sm text-gray-400
                   mr-6
                   tracking-normal
                 "
@@ -474,12 +477,11 @@
                 class="
                   focus:outline-none
                   font-medium
-                  cursor-pointer
+                  cursor-not-allowed
                   h-full
                   flex
                   items-center
-                  hover:text-primary
-                  text-sm text-black
+                  text-sm text-gray-400
                   mr-6
                   tracking-normal
                 "
@@ -785,7 +787,13 @@
                     <a class="cursor-pointer">
                       <div class="text-gray-800 pt-5">
                         <div class="flex items-center">
-                          <p
+                          <router-link
+                            to="/overview"
+                            @click="
+                              () => {
+                                sidebarHandler(false);
+                              }
+                            "
                             tabindex="0"
                             class="
                               hover:text-primary
@@ -793,8 +801,8 @@
                               font-medium
                             "
                           >
-                            Dashboard
-                          </p>
+                            Profile
+                          </router-link>
                         </div>
                       </div>
                     </a>
@@ -832,11 +840,7 @@
                         <div class="flex items-center">
                           <p
                             tabindex="0"
-                            class="
-                              hover:text-primary
-                              text-black text-sm
-                              font-medium
-                            "
+                            class="text-gray-300 text-sm font-medium"
                           >
                             Stats
                           </p>
@@ -849,11 +853,7 @@
                       <div class="w-6 h-6 md:w-8 md:h-8 text-gray-800">
                         <p
                           tabindex="0"
-                          class="
-                            hover:text-primary
-                            text-black text-sm
-                            font-medium
-                          "
+                          class="text-gray-300 text-sm font-medium"
                         >
                           Partners
                         </p>
@@ -865,11 +865,7 @@
                       <div class="w-6 h-6 md:w-8 md:h-8 text-gray-800">
                         <p
                           tabindex="0"
-                          class="
-                            hover:text-primary
-                            text-black text-sm
-                            font-medium
-                          "
+                          class="text-gray-300 text-sm font-medium"
                         >
                           Settings
                         </p>
