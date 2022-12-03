@@ -116,6 +116,54 @@
         </div>
       </div>
       <div class="my-3 flex flex-col">
+        <h1 class="text-xl font-bold">Portal idea จากทีม Single Gimmick! ✨</h1>
+        <div class="flex">
+          <img
+            src="../assets/image-post-innov-3.jpeg"
+            alt=""
+            class="
+              object-cover
+              w-24
+              h-24
+              lg:w-full lg:h-40
+              rounded-md
+              my-2
+              mr-4
+            "
+          />
+
+          <p class="mt-2 text-xs md:text-base lg:text-lg">
+            Portal มาในสาย Edtech
+            แอพที่ช่วยรวบรวมกิจกรรมและสะสมผลงานเพื่อช่วยในการทำ Portfolio,
+            Resume, CV เป็นไอเดียที่น่าสนใจมากๆครับ ไม่ได้ใช้ได้แค่กับเด็กมัธยม
+            คนทำงานและคนทั่วไปก็ยังสามารถใช้ได้อีกด้วย เป็นประโยชน์มากครับ รอฟัง
+            pitch ทีมนี้อยู่เลยครับ สู้ๆคร้าบบ
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      @click="gotoDetail"
+      class="
+        w-full
+        flex flex-col
+        bg-white
+        p-4
+        border-b border-primary border-opacity-50
+        rounded-t-md
+      "
+    >
+      <!-- head -->
+      <div class="flex justify-between items-center w-full">
+        <div class="flex gap-3">
+          <div class="w-10 h-10 rounded-full bg-primary"></div>
+          <div class="flex flex-col">
+            <h1 class="text-sm font-semibold hover:underline">Chamel</h1>
+            <p class="text-xs">23 Apr 2023</p>
+          </div>
+        </div>
+      </div>
+      <div class="my-3 flex flex-col">
         <h1 class="text-xl font-bold">เปิดให้จองที่นั่ง! ✨</h1>
         <div class="flex">
           <img
